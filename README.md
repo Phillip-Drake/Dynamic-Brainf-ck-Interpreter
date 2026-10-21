@@ -1,12 +1,12 @@
-# Dynamic-Brainfuck-Interpreter
-Interpreter for the esoteric language "Brainfuck" written in javascript, with a boilerplate web interface attached for demonstration purposes.
+# Dynamic-Brainf*ck-Interpreter
+Interpreter for the esoteric language "Brainf*ck" written in javascript, with a boilerplate web interface attached for demonstration purposes.
 
 
-## What is Brainfuck?
+## What is Brainf*ck?
 
-Brainfuck is an esoteric language developed by Urban Müller in 1993, with the intention of creating as minimally featured, but fully turing complete, language as possible.<br>
+Brainf*ck is an esoteric language developed by Urban Müller in 1993, with the intention of creating as minimally featured, but fully turing complete, language as possible.<br>
 <br>
-Brainfuck gives the user access to 8 commands, which are used to affect values in the registry : <br>
+Brainf*ck gives the user access to 8 commands, which are used to affect values in the registry : <br>
 ">" - Move the data pointer to the right by 1 unit<br>
 "<" - Move the data pointer to the left by 1 unit<br>
 "+" - Increment the registry value at the data pointer by 1<br>
@@ -19,7 +19,7 @@ With this limited assortment of commands, a dedicated developer could theoretica
 <br>
 ## Why is this interpreter different?
 
-The majority of Brainfuck interpreters execute code whenever some "run" button is pressed. This is effective for development, but doesn't allow you to see the real-time effect of the code you create.
+The majority of Brainf*ck interpreters execute code whenever some "run" button is pressed. This is effective for development, but doesn't allow you to see the real-time effect of the code you create.
 This is unproblematic for the vast majority of programming languages, but the incredibly minamalist nature allows for the possibility of dynamic compilation. 
 
 ## How does it work?
